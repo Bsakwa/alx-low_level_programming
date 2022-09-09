@@ -11,7 +11,7 @@ int main(void)
 	int c;
 	char l;
 
-	for (c = 0; c <= 16; c++)
+	for (c = 0; c <= 9; c++)
 	{
 		putchar((c % 10) + '0');
 	}
