@@ -14,7 +14,10 @@ int main(void)
 	{
 		printf("%d\n", c);
 	}
+	printf("\n");
+
 	return (0);
+	}
 }
 
 
