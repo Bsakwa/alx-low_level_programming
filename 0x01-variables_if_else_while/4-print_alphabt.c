@@ -15,6 +15,8 @@ int main(void)
 	if (c != 'e' && c != 'q')
 	{
 		putchar(c);
+
+		return (0);
 	}
 	putchar('\n');
 
