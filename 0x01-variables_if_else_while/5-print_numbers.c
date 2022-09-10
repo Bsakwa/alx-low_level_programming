@@ -12,12 +12,10 @@ int main(void)
 
 	for (c = 0 ; c <= 9 ; c++)
 	{
-		printf("%d\n", c);
+		printf("%d", c);
 	}
 	printf("\n");
-
 	return (0);
-	}
 }
 
 

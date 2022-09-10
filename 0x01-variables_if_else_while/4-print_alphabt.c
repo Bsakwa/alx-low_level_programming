@@ -9,11 +9,11 @@
 int main(void)
 {
 	char c;
+	
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		c != 'e';
-		c != 'q';
+	
 		putchar(c);
 	}
 	putchar('\n');
