@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
 		{
-			if ((dig1 == 9)) 
+			if (dig1 == 9)
 			continue;
 			{
 				putchar((dig1 % 10) + '0');
