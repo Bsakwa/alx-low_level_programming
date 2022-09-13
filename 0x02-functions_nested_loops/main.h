@@ -1,10 +1,14 @@
-#ifndef Main
-#define Main
 #include<stdio.h>
 
 void print_alphabet(void)
 {
-	print_alphabet();
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 }
 
-#endif
+
