@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point
@@ -7,7 +6,6 @@
  *
  * Return: Always 0 (success)
  */
-void print_alphabet();
 
 int main(void)
 {
