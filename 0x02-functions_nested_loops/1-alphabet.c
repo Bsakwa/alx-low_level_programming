@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point
@@ -6,9 +7,18 @@
  *
  * Return: Always 0 (success)
  */
+void print_alphabet();
+
 int main(void)
 {
-	print_alphabet();
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+
 	return (0);
 }
 
