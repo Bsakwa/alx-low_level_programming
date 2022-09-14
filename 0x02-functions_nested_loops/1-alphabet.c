@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry Point
- *
- * Description - This program prints alphabet in lower case
+ *print_alphabet - This program prints alphabet in lower case
  *
  * Return: Always 0 (Success)
  */
@@ -15,6 +13,4 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-
-	return (0);
 }
