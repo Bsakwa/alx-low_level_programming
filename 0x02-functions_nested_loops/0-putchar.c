@@ -1,25 +1,36 @@
-#include<stdio.h>
+#include<unistd.h>
 #include "main.h"
+
 /**
- * main - entry point
+ * _putchar - Prints char c to std output
  *
- * Description - This program prints putchar
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Description - Uses the function to ouput
+ *
+ * Return: Always 0 (success)
  */
-int _putchar(void);
 
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+
+	char ch[8] = "_putchar";
+	int i = 0;
+	char c;
+
+	while (i <= 8)
+	{
+		c = ch[i];
+		_putchar(c);
+		i++;
+	}
+	_putchar('\n');
 
 	return (0);
+}
+
+int _putchar(char c)
+	/* Description */
+{
+	return (write(1, &c, 1));
 }
