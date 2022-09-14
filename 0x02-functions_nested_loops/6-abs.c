@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * _abs - Prints the absolute number of an integer
- *
+ *@t: Input parameter
  *
  * Return: Always (0)
  */
-int _abs(int)
+int _abs(int t)
 {
 	int t;
 
