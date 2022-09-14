@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ * main - Entry point
  *
+ * Description - This program returns the word _putchar
  *
- *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
