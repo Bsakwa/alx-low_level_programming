@@ -9,7 +9,7 @@ void print_diagonal(int n)
 {
 	int x;
 
-	char c = 'b';
+	char c = 92;
 
 	if ( n <= 0)
 	{
@@ -20,6 +20,8 @@ void print_diagonal(int n)
 		for (x = 0; x != n; x++)
 		{
 			_putchar(c);
+			_putchar('\n');
+
 		}
 	}
 	_putchar('\n');
