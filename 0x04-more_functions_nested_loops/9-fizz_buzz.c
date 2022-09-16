@@ -6,29 +6,29 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
-	int b ;
+	int b;
 
-	for ( b = 1; b <= 100; b++)
+	for (b = 1; b <= 100; b++)
 	{
-		if (b%3 == 0 && b%5 == 0)
+		if (b % 3 == 0 && b % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz");
 		}
-		else if (b%3 == 0)
+		else if (b % 3 == 0)
 		{
-			printf(" Fizz");
+			printf("Fizz");
 		}
-		else if (b%5 == 0)
+		else if (b % 5 == 0)
 		{
-			printf(" Buzz");
+			printf("Buzz");
 		}
 		else
 		{
-			printf(" ");
 			printf("%d", b);
 		}
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
