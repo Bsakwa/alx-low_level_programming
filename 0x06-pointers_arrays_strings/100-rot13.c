@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * rot13 - replaces every letter with the 13 letter from it
- * @p: letter to be replaced
+ * @s: letter to be replaced
  *
- * return: The modified string
+ * Return: The modified string
  */
 char *rot13(char *s)
 {
@@ -11,9 +11,9 @@ char *rot13(char *s)
 
 	while (s[a])
 	{
-		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] = 'A' && s[a] <= 'Z'))
+		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
 		{
-			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] = 'M' && s[a] <= 'Z'))
+			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
 			{
 				s[a] -= 13;
 				break;
