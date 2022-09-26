@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _diagsums - Prints the sum of two diagonals 
+ * print_diagsums - Prints the sum of two diagonals
  * @a: Value parameter
  * @size: Value Parameter
  *
