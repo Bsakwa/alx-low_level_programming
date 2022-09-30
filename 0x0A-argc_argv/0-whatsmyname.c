@@ -4,6 +4,8 @@
  * main - Prints the programs name followed by a new line
  * @argc: Arguments count
  * @argv: Char array
+ *
+ * Return: Always (0) Success
  */
 int main(int argc, char *argv[])
 {
