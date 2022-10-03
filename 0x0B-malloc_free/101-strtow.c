@@ -21,7 +21,7 @@ char **strtow(char *str)
 		{
 			a++;
 		}
-		printf("%s",str);
+		printf("%s", str);
 	}
 	return (0);
 }
