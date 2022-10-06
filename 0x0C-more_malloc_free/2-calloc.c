@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * calloc - allocates memory for an array
- * @nmemb
- * @size
+ * _calloc - allocates memory for an array
+ * @nmemb: Number of elements to be allocated
+ * @size: The size of each element
  *
  * Return:NULL if nmemb or size is zero. NULL if malloc fails
  */
@@ -20,14 +20,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	b = malloc(size * nmemb);
-	
 	if (b == NULL)
 	{
 		return (NULL);
 	}
 	c = b;
 	{
-		for (i = 0; i < (size *nmemb); i++)
+		for (i = 0; i < (size * nmemb); i++)
 		{
 			c[i] = '\0';
 		}
