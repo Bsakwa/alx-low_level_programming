@@ -4,17 +4,20 @@
 #include <string.h>
 /**
  * main - multiplies numbers
- *
+ *@argc: the number of arguments
+ *@argv:The arguments
  * Return: The multiples of numbers
  */
 int main(int argc, char **argv)
 {
 	int i;
-	int mul;
+	int mul, num1, num2;
 
 	for (i = 0; i < argc; i++)
 	{
-		mul *=atoi(argv[i]);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		mul = num1 * num2;
 	}
 	return (mul);
 }
