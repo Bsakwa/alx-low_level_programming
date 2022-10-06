@@ -10,21 +10,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *a, i;
+	void *a = malloc(b);
 
-	i = 0;
-
-	a = malloc(sizeof(unsigned int) * i);
+	if (a == NULL)
 	{
-		for (i = 0; a[i]; i++)
-		{
-			a[i] = b;
-			free(a);
-		}
-		if (a == NULL)
-		{
-			exit(98);
-		}
+		exit(98);
 	}
 	return (a);
 }
