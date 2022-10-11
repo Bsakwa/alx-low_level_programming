@@ -20,6 +20,7 @@ int **alloc_grid(int width, int height)
 
 	if (twodim == NULL)
 	{
+		free(twodim);
 		return (NULL);
 	}
 	for (hgt = 0; hgt < height; hgt++)

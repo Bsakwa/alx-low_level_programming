@@ -1,1 +1,1 @@
-This repository introduces us to a world of C programming
+This project tackles topics for all low level programming

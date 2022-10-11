@@ -17,6 +17,7 @@ void free_grid(int **grid, int height)
 		for (a = 0; grid[a]; a++)
 		{
 			grid[a] = malloc(sizeof(int) * a);
+			free(grid[height]);
 			free(grid);
 		}
 	}
