@@ -2,7 +2,7 @@
 
 In the course of this project, I learnt implementing hash functions and hast tables in C Programming.
 
-## Tests
+## Tests: heavy_check_mark:
 
 * [tests](./tests): Test files provided by ALX x Holberton.
 
