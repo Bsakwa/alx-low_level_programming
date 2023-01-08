@@ -64,4 +64,5 @@ Function Prototypes:
   hash table.
     * If the function fails - returns `NULL`.
     * Otherwise - returns a pointer to the new hash table.
-
+* **1. djb2**
+	* [1-djb2.c](./1-djb2.c): Implementing the djb2 algorithm
