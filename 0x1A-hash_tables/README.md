@@ -68,10 +68,13 @@ Function Prototypes:
 	* [1-djb2.c](./1-djb2.c): Implementing the djb2 algorithm
 * **2. key -> index**
     * [2-key_index.c](./2-key_index.c): Return the index of a key
-* **>>>3. ht['betty'] = 'cool'**
+* **3. >>>ht['betty'] = 'cool'**
 	* [3-hash_table_set.c](./3-hash_table_set.c): Adds an element to the hash table
-* **>>> 4. ht['betty']**
-	* [4-hash_table_get.c](./4-hash_table_get.c): Retrieves a value associatted with a key
+	* Returns 1 if succeeds, 0 otherwise
+	* In case of a collision add new node at the beginning
+* **4. >>>ht['betty']**
+	* [4-hash_table_get.c](./4-hash_table_get.c): Retrieves a value associated with a key
+	* Returns the value associated with the element or NULL
 * **5. >>> print(ht)**
 	* [5-hash_table_print.c](./5-hash_table_print.c): Prints a hash table
 * **6. >>> del ht**
